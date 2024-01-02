@@ -12,7 +12,7 @@ const ShopOurProductHome =() =>{
 
                 </div>
                 <div>
-                 <img src={HOMEPRODUCTBANNER} width={335.99} height={216.99}/>  
+                <a href='https://shoppuppyculture.com/collections/all'><img src={HOMEPRODUCTBANNER} width={335.99} height={216.99}/></a>   
                 </div> 
                 <div>
                     <button  className="shopproduct" > Shop </button>

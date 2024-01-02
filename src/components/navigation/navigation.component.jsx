@@ -1,13 +1,14 @@
 import { Link } from 'react-router-dom';
 import dropDownIcon from '../../assets/caret-down.svg';
 import Logo from '../../assets/logo.png';
-import SearchIcon from '../../assets/search-icon.svg';
+// import SearchIcon from '../../assets/search-icon.svg';
 import DropdownShop from '../drop-down/drop-down-shop.component.jsx';
 import './navigation.styles.scss';
 import DropdownUsefulInformation from '../drop-down/drop-down-useful-inforamation.component.jsx';
 import DropdownAbout from '../drop-down/drop-down-about.component.jsx';
-
-
+import SearchIcon from '../search/search.component.jsx';
+// import ShopOurProducts from '../shop-our-products/shop-our-products.component.jsx';
+import ShopOurProductHome from '../shop-our-products-home/shop-our-products-home.component.jsx';
         
 const Navigation  =() =>{
 
@@ -15,7 +16,7 @@ const Navigation  =() =>{
   return(
     <div>
     <nav>
-        <Link to='/' className='navbar-logo'>
+        <Link  className='navbar-logo' to='/'>
           <img src={Logo} width={120} height={90.24}/>
         </Link>
     <div>
@@ -25,32 +26,15 @@ const Navigation  =() =>{
       </li>
       <li>
         <DropdownShop/>
-          
-        {/* <Link to='/drop-down-shop' className='shop' ><DropdownShop/> <img src={dropDownIcon}width={40} height={20.89}/></Link> */}
-       
       </li>
       <li>
         <DropdownUsefulInformation/>
-        {/* <Link to='/useful-information' className='usefulinformation' >UseFul Information 
-          <img src={dropDownIcon}width={40} height={20.89}/>
-          <Dropdown options={UsefulInformation} />
-        </Link> */}
-        
       </li>
       <li>
-
         <DropdownAbout/>
-        {/* <Link to='/about.component.jsx' className='about' >About
-        <img src={dropDownIcon}width={40} height={20.89}/>
-        <Dropdown options={Shop} /> 
-         </Link>
-        */}
+       
       </li>
-    
-        <Link className='search' >
-          <img src={SearchIcon} width={22.4} height={22.4}/>
-         
-        </Link>
+    <SearchIcon/>
   
     </ul>
     </div>
@@ -58,7 +42,7 @@ const Navigation  =() =>{
     {/* <div>
       <ShopOurProducts/>
     </div> */}
-    {/* <div><ShopOurProductHome/></div> */}
+    <div><ShopOurProductHome/></div>
     </div>
 
    

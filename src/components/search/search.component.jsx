@@ -1,41 +1,33 @@
-import { Outlet } from 'react-router-dom';
+import Search from '../../assets/search-icon.svg';
 
-import Navigation from '../navigation/navigation.component';
-const Home = () => {
-  const categories = [
-    {
-      id: 1,
-      title: 'getstarted',
-     
-    },
-    {
-      id: 2,
-      title: 'shop',
-      
-    },
-    {
-      id: 3,
-      title: 'usefulinformation',
-     
-    },
-    {
-      id: 4,
-      title: 'about',
-    
-    },
-    {
-      id: 5,
-      title: 'search',
-      
-    },
-  ];
+import React from 'react';
+const  SearchIcon=()=> {
 
-  return (
-    <div>
-      <Navigation  />
-      <Outlet />
-    </div>
-  );
-};
+    return (
+        <form >
+            <input type="text" placeholder="Search..."/>
+            <button type="submit"><img src={Search} /></button>
+        </form>
+    );
+}
 
-export default Home;
+
+
+export default SearchIcon;
+
+
+
+// import React from 'react';
+
+// import Search from '../../assets/search-icon.svg';
+ 
+// const SearchIcon = () => {
+//   return (
+//     <div>
+//       <img src={Search} />
+
+//     </div>
+//   );
+// }
+
+// export default SearchIcon;

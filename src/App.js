@@ -8,6 +8,7 @@ import GetStarted from './components/get-started/get-started.component';
 import Shop from './components/shop/shop.component';
 import UsefulInformation from './components/useful-information/useful-information.component';
 import SearchIcon from "./components/search/search.component";
+import Footer from "./layout/footer/footer";
 const App = () => {
   return (
     <>
@@ -22,6 +23,8 @@ const App = () => {
         <Route path="/drop-down-shop" element={<DropdownShop/>}/>
         <Route path="search" element={<SearchIcon/>}/>
       </Routes>
+
+      <Footer />
     </>
   );
 };

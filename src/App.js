@@ -8,6 +8,8 @@ import GetStarted from './components/get-started/get-started.component';
 import Shop from './components/shop/shop.component';
 import UsefulInformation from './components/useful-information/useful-information.component';
 import SearchIcon from "./components/search/search.component";
+import Landingpage from "./components/landingpage/landingpage.component";
+import BlueNavBar from "./components/navbar/bluenavbar.component";
 import Footer from "./layout/footer/footer";
 const App = () => {
   return (
@@ -15,6 +17,8 @@ const App = () => {
       <Navigation/>
       
       <Routes>
+        <Route path="/" element={<Landingpage />} />
+        <Route path="/Bluenavbar" element={<BlueNavBar />} />
         <Route path="logo" element={<Logo/>}/>
         <Route path="/get-started" element={<GetStarted/>}/>
         <Route path="/shop" element={<Shop/>} />

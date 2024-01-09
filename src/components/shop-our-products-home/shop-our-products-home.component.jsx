@@ -22,4 +22,4 @@ const ShopOurProductHome =() =>{
     );
 }
 
-export default ShopOurProductHome
+export default ShopOurProductHome;

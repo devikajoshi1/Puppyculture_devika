@@ -1,18 +1,14 @@
-import Search from '../../assets/search-icon.svg';
-// import './search.styles.scss';
 import React from 'react';
-import { Link } from 'react-router-dom';
-
+import Search from '../../assets/search-icon.svg';
+import './search.styles.scss';
 const  SearchIcon=()=> {
+
     return (
-        <div class="search-form">
-       
-        <input type="search" class="search-input" placeholder="Search" aria-label="Search" aria-describedby="search-addon"  />
-       
-        <span class="input-group-text border-0" id="search-addon">
-            <button className='search-button'><img src={Search} /> </button>
-        </span>
-        
+
+        <div class="input-group rounded">
+        <a href='https://shoppuppyculture.com/search?q=&options%5Bprefix%5D=last'>
+            <img src={Search} />
+        </a>
         </div>
 
     );
@@ -20,28 +16,3 @@ const  SearchIcon=()=> {
   
 
 export default SearchIcon;
-
-
-
-// import Search from '../../assets/search-icon.svg';
-// // import './search.styles.scss';
-// import React from 'react';
-// import { Link } from 'react-router-dom';
-
-// const  SearchIcon=()=> {
-//     return (
-//         <div class="input-group rounded">
-       
-//         <input type="search" class="form-control rounded" placeholder="Search" aria-label="Search" aria-describedby="search-addon"  />
-       
-//         <span class="input-group-text border-0" id="search-addon">
-//             <button><img src={Search} /> </button>
-//         </span>
-        
-//         </div>
-
-//     );
-//   };
-  
-
-// export default SearchIcon;

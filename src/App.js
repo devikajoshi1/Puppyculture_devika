@@ -1,5 +1,5 @@
 import { Route, Routes } from "react-router-dom";
-import Navigation from "./components/navigation/navigation.component";
+
 
 import Logo from './assets/logo.png';
 import About from './components/about/about.componet';
@@ -11,15 +11,16 @@ import SearchIcon from "./components/search/search.component";
 // import BlueNavBar from "./components/navbar/bluenavbar.component";
 //import Firstcomponent from "./components/firstcomponent/firstcomponent.component";
 //import ShopOurProducts from "./components/shop-our-products/shop-our-products.component";
-//import Component from "./components/component3/component1";
+import Component from "./components/component3/component1";
 //import Login from "./components/login/Login.component";
 // import Createaccount from "./components/Createaccount/Createaccount";
 import Landingpage from "./components/landingpage/landingpage.component";
-import Footer from "./layout/footer/footer";
+//import Component4 from "./components/component4/component4";
+
 const App = () => {
   return (
     <>
-      <Navigation/>
+      
       
       <Routes>
         <Route path="/" element={<Landingpage />} />
@@ -38,9 +39,10 @@ const App = () => {
         <Route path="/about" element={<About/>}/>
         <Route path="/drop-down-shop" element={<DropdownShop/>}/>
         <Route path="search" element={<SearchIcon/>}/>
+        <Route path="/c3" element={<Component/>}/>
+        {/* <Route path="/c4" element={<Component4/>}/> */}
+        
       </Routes>
-
-      <Footer />
     </>
   );
 };

@@ -6,12 +6,17 @@ import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
 import Shop from './components/shop/shop.component';
+import Footer from "./layout/footer/footer";
+import Navigation from "./components/navigation/navigation.component";
+import BlueNavBar from './components/navbar/bluenavbar.component';
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
+      <BlueNavBar /> 
+      <Navigation/>
       <App />
-     
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

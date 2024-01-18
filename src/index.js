@@ -5,14 +5,14 @@ import App from './App';
 import './index.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import reportWebVitals from './reportWebVitals';
-//import Footer from "./layout/footer/footer";
+import Footer from "./layout/footer/footer";
 
 
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
       <App />
-      {/* <Footer /> */}
+      <Footer />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

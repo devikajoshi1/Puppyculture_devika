@@ -5,8 +5,6 @@ import Component4 from "./components/component4/component4";
 const App = () => {
   return (
     <>
-      
-      
       <Routes>
         {/* <Route path="/c3" element={<Component/>}/> */}
         <Route path="/c4" element={<Component4/>}/>

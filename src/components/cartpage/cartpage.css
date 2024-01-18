@@ -1,0 +1,135 @@
+.page-width {
+    padding: 0 5rem;
+}
+
+.page-width {
+    max-width: var(--page-width);
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
+cart-items {
+    display: block;
+}
+
+.title-wrapper-with-link {
+    margin: 3rem 0 2rem;
+}
+
+.is-empty .cart__empty-text, .is-empty .cart__warnings {
+    display: block;
+}
+
+.cart__empty-text {
+    margin: 4.5rem 0 2rem;
+}
+
+h1 {
+    font-size: 2.23125rem;
+    line-height: 1.2;
+}
+
+.button{
+    font-size: 1.5rem;
+    letter-spacing: 0.1rem;
+    line-height: calc(1 + 0.2 / var(--font-body-scale));
+}
+
+.button{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    padding: 0 3rem;
+    cursor: pointer;
+    text-decoration:none;
+    color:white;
+    transition: box-shadow var(--duration-short) ease;
+    appearance: none;
+    background-color: rgba(var(--color-button), var(--alpha-button-background));
+}
+
+.button{
+    min-width: calc(12rem + var(--buttons-border-width) * 2);
+    min-height: calc(4.5rem + var(--buttons-border-width) * 2);
+}
+
+.cart__login-title {
+    margin: 5.5rem 0 0.5rem;
+}
+
+.h2 {
+    font-size: 1.7rem;
+    line-height: 1.3;
+}
+
+h2 {
+    display: block;
+    font-size: 1.5em;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+
+.cart__login-paragraph {
+    margin-top: 0.8rem;
+}
+
+address, dl, fieldset, figure, ol, p, pre, ul {
+    margin: 0 0 20px 0;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.underlined-link, .customer a {
+    color: rgba(var(--color-link), var(--alpha-link));
+    color: #333;
+    text-underline-offset: 0.3rem;
+    text-decoration-thickness: 0.1rem;
+    transition: text-decoration-thickness ease 100ms;
+}
+
+.link, .customer a {
+    cursor: pointer;
+    display: inline-block;
+    border: none;
+    box-shadow: none;
+    text-underline-offset: 0.3rem;
+    color: rgb(var(--color-link));
+    background-color: transparent;
+}
+
+.button {
+    background: #e85858;
+    text-overflow: unset;
+    color: white;
+}
+
+.cart__warnings{
+    text-align: center;
+    margin-top: 130px;
+    margin-bottom: 100px;
+}
+
+.cart__empty-text{
+    font-size: 2.5rem;
+    font-weight: normal;
+}
+
+.cart__login-title{
+    font-size: 2rem;
+}
+
+
+.ll{
+    text-decoration: underline;
+}
+

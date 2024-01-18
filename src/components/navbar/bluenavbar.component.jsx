@@ -21,7 +21,7 @@ const BlueNavBar = () => {
         </div>
         <div className='header1-right'>
         <div className='nav-item-icons'> <Link to="/login">Login</Link> </div>
-          <div className='nav-item-icons'> <Link to="/login">Cart</Link></div>
+          <div className='nav-item-icons'> <Link to="/cart">Cart</Link></div>
         </div>
       </section>
       {/* <div className='website_links'>

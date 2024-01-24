@@ -65,4 +65,4 @@ const Landingpage = () => {
   )
 }
 
-export default Landingpage;
+export default Landingpage

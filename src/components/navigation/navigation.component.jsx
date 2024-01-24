@@ -8,6 +8,7 @@ import SearchIcon from '../search/search.component.jsx';
 import './navigation.styles.scss';
 import Search from '../../assets/search-icon.svg';
 // import ShopOurProducts from '../shop-our-products/shop-our-products.component.jsx';
+import GetStarted from '../get-started/get-started.component.jsx';
 
 
 const Navigation  =() =>{
@@ -16,7 +17,7 @@ const Navigation  =() =>{
     
     
     
-    <div>
+  <div className='middle'>
     <nav>
         <Link  className='navbar-logo' to='/'>
           <img src={Logo} width={120} height={90.24}/>
@@ -24,8 +25,8 @@ const Navigation  =() =>{
     <div>
       
       <ul id='navbar' >
-      <li>  
-        <Link to='/get-started' className='getstart' > Get Started</Link>
+      <li className='get'>  
+        <GetStarted />
       </li>
       <li className='shop'>
       
@@ -54,7 +55,7 @@ const Navigation  =() =>{
     </div> */}
     {/* <div><ShopOurProductHome/></div> */}
   
-    </div>
+  </div>
 
    
   )

@@ -1,11 +1,11 @@
-// GetStarted.js
 import React from 'react';
+import Component from '../component3/component1';
+import './styles.css';
 
 const GetStarted = () => {
-  return (
+  return(
     <div>
-      <h2>Get Started</h2>
-      <p>This is the Get Started page.</p>
+       <a href='https://shoppuppyculture.com/pages/getting-started'>Get Started</a> 
     </div>
   );
 };

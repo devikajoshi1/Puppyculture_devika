@@ -13,7 +13,7 @@ import BlueNavBar from './components/navbar/bluenavbar.component';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <BlueNavBar /> 
+      <BlueNavBar/>
       <Navigation/>
       <App />
       <Footer />

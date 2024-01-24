@@ -12,8 +12,8 @@ const BlueNavBar = () => {
           <div className='header1-item'>
             <a className='nav-item-links' href="https://madcapuniversity.com/">MADCAP UNIVERSITY</a>
           </div>
-          <div className='header1-item'>
-            <a className='nav-item-links' href="https://shoppuppyculture.com/">PUPPY CULTURE</a>
+          <div className='header1-item-1'>
+            <a className='nav-item-links' href="https://shoppuppyculture.com/"> ❤️ PUPPY CULTURE </a>
           </div>
           <div className='header1-item'>
             <a className='nav-item-links' href="https://www.madcapradio.com.">MADCAP RADIO</a>
@@ -24,26 +24,6 @@ const BlueNavBar = () => {
           <div className='nav-item-icons'> <Link to="/cart">Cart</Link></div>
         </div>
       </section>
-      {/* <div className='website_links'>
-        <div className="test1">
-          <div className='madcap_link'>
-            <a className='nav-item-text' href="https://madcapuniversity.com/">MADCAP UNIVERSITY</a>
-          </div>
-          <div className='puppy_link'>
-
-            <a href="https://shoppuppyculture.com/">PUPPY CULTURE</a>
-          </div>
-          <div className='radio_link'>
-            <a href="https://www.madcapradio.com.">MADCAP RADIO </a>
-          </div>
-        </div>
-      </div>
-      <div className='header_icons'>
-        <div className="test2">
-          <div className='icon1'> <br /> <Link to="/login">Login</Link> </div>
-          <div className='icon2'> <br /> <Link to="/login">Login</Link></div>
-        </div>
-      </div> */}
     </nav>
 
   )

@@ -8,7 +8,7 @@ import GetStarted from './components/get-started/get-started.component';
 import Shop from './components/shop/shop.component';
 import UsefulInformation from './components/useful-information/useful-information.component';
 import SearchIcon from "./components/search/search.component";
-import BlueNavBar from "./components/navbar/bluenavbar.component";
+// import BlueNavBar from "./components/navbar/bluenavbar.component";
 import Firstcomponent from "./components/firstcomponent/firstcomponent.component";
 import ShopOurProducts from "./components/shop-our-products/shop-our-products.component";
 import Component from "./components/component3/component1";
@@ -26,7 +26,7 @@ const App = () => {
       
       <Routes>
         <Route path="/" element={<Landingpage />} />
-        <Route path="/Bluenavbar" element={<BlueNavBar />} />
+        {/* <Route path="/Bluenavbar" element={<BlueNavBar />} /> */}
         <Route path="/Whypuppyculture?" element={<Firstcomponent />} />
         <Route path="/ShopOurProducts!" element={<ShopOurProducts />} />
         <Route path="/WhatShouldIBuy?" element={<Component />} />

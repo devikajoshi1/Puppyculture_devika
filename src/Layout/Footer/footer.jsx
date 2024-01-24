@@ -4,112 +4,6 @@ import './footer1.css';
 
 const Footer = () => {
   return (
-    // <div class="footer color-background-2 gradient section-sections--14346363404382__footer-padding">
-    //   <div class="footer__content-top page-width">
-    //     <div class="footer__blocks-wrapper grid grid--1-col grid--2-col grid--4-col-tablet">
-    //       <div class="footer-block grid__item footer-block--menu">
-    //         <h2 class="footer-block__heading">Quick links</h2>
-    //         <li class="footer-block__details-content list-unstyled">
-    //           <ul>
-    //             <a
-    //               href="https://shoppuppyculture.com/account"
-    //               class="link link--text list-menu__item list-menu__item--link"
-    //             >
-    //               My Account
-    //             </a>
-    //           </ul>
-    //           <ul>
-    //             <a
-    //               href="https://shoppuppyculture.com/pages/support?url=https://support.shoppuppyculture.com/support/solutions"
-    //               class="link link--text list-menu__item list-menu__item--link"
-    //             >
-    //               Support Portal / FAQs
-    //             </a>
-    //           </ul>
-    //           <ul>
-    //             <a
-    //               //href="/pages/keep-informed"
-    //               class="link link--text list-menu__item list-menu__item--link"
-    //             >
-    //               Keep Informed
-    //             </a>
-    //           </ul>
-    //           <ul>
-    //             <a
-    //               href="https://support.shoppuppyculture.com/support/home"
-    //               class="link link--text list-menu__item list-menu__item--link"
-    //             >
-    //               Contact Us
-    //             </a>
-    //           </ul>
-    //           <ul>
-    //             <a
-    //               //href="/pages/legal-stuff"
-    //               class="link link--text list-menu__item list-menu__item--link"
-    //             >
-    //               Policies / Data Requests
-    //             </a>
-    //           </ul>
-    //         </li>
-    //       </div>
-    //     </div>
-    //     <div class="footer-block--newsletter"></div>
-    //   </div>
-    //   <div class="footer__content-bottom">
-    //     <div class="footer__content-bottom-wrapper page-width">
-    //       <div class="footer__column footer__localization isolate"></div>
-    //       <div class="footer__column footer__column--info"></div>
-    //     </div>
-    //     <div class="footer__content-bottom-wrapper page-width footer__content-bottom-wrapper--center">
-    //       <div class="footer__copyright caption">
-    //         <ul class="policies list-unstyled">
-    //           <li>
-    //           <small class="copyright__content">© 2023, 
-    //           <a href="/" title="">PUPPY CULTURE</a></small>
-    //           <small class="copyright__content">
-    //           <a
-    //           target="_blank"
-    //           rel="nofollow"
-    //           href="https://www.shopify.com?utm_campaign=poweredby&amp;utm_medium=shopify&amp;utm_source=onlinestore"
-    //           ></a></small>
-    //           </li>
-    //           <li>
-    //             <small class="copyright__content"
-    //             ><a href="/policies/refund-policy">Return/Refund policy</a></small
-    //             >
-    //           </li>
-    //           <li>
-    //             <small class="copyright__content"
-    //             ><a href="/policies/privacy-policy">Privacy policy</a></small
-    //             >
-    //           </li>
-    //           <li>
-    //             <small class="copyright__content"
-    //             ><a href="/policies/terms-of-service">Terms of service</a></small
-    //             >
-    //           </li>
-    //           <li>
-    //             <small class="copyright__content"
-    //             ><a href="/policies/shipping-policy">Shipping policy</a></small
-    //             >
-    //           </li>
-    //         </ul>
-    //         <div class="grid grid--no-gutters">
-    //           <div class="ftrcntr">
-    //             <hr />
-    //             <img
-    //               src="https://cdn.shopify.com/s/files/1/1554/7897/files/PC-PROOF-IS-IN-THE-PUPPIES-reg-trademark.png?14941266797717180377"
-    //             />
-    //             <img
-    //               src="https://cdn.shopify.com/s/files/1/1554/7897/files/Madcap-UP-zer0-bg-75x150.png?v=1576798821"
-    //             />
-    //           </div>
-    //         </div>
-    //       </div>
-    //     </div>
-    //   </div>
-    // </div>
-
       <div class="footer color-background-2 gradient section-sections--14346363404382__footer-padding">
         <div class="footer__content-top page-width">
           <div
@@ -222,14 +116,6 @@ const Footer = () => {
                   <img
                     src="https://cdn.shopify.com/s/files/1/1554/7897/files/Madcap-UP-zer0-bg-75x150.png?v=1576798821"
                   />
-
-                  {/* <!--
-                  <div id="m-1671121515421">
-                    <a href="https://play.google.com/store/apps/details?id=tv.uscreen.puppyculture&amp;pcampaignid=pcampaignidMKT-Other-global-all-co-prtnr-py-PartBadge-Mar2515-1"><img alt="Get it on Google Play" src="https://cdn.shopify.com/s/files/1/0360/4922/3818/files/googleplay-image.png?v=1670208110"></a>
-
-                    <a href="https://apps.apple.com/us/app/puppy-culture/id6443569865?itsct=apps_box_badge&amp;itscg=30200"><img src="https://tools.applemediaservices.com/api/badges/download-on-the-app-store/black/en-us?size=250x83&amp;releaseDate=1665532800?h=787ae4514f03be53939eece7de396b19" alt="Download on the App Store"></a>
-                  </div>
-                  --> */}
                 </div>
               </div>
             </div>
@@ -238,17 +124,9 @@ const Footer = () => {
         <div>
         <div
           class="locale-selectors__container"
-          // style="background-color: rgb(17, 34, 54)"
         >
           <div
             class="locale-selectors__content"
-            // style="
-            //   max-width: 1500px;
-            //   margin-left: 0px;
-            //   margin-right: 0px;
-            //   padding-left: 62.5px;
-            //   padding-right: 62.5px;
-            // "
           >
             <form action="/localization" method="POST">
               <input name="_method" type="hidden" value="PUT" /><input
